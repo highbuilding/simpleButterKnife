@@ -1,0 +1,13 @@
+apply plugin: 'java-library'
+
+compileJava {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    implementation project(':annotation')
+    implementation rootProject.ext.dependencies.autoService
+    implementation rootProject.ext.dependencies.javaPoet
+
+}

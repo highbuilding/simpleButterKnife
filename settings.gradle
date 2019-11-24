@@ -1,1 +1,1 @@
-include ':app', ':rejectview'
+include ':app', ':rejectview', ':viewbind', ':annotation', ':processor'
